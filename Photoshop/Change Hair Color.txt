@@ -1,0 +1,7 @@
+Easily Change Hair Color:
+1.Select hair carefully using (Quick selection) or any other tools.
+2.Click on tab "Select > Modify > Contract. Keep the value 12 to 15 in "Contract by" option and hit OK.
+3.Make a layer of solid color and choose the hair color and click OK.
+4.Now, change the blend mode from "Normal" to "Soft" and click on masked icon of solid color layer and increase the "feather" 28 to 35 click OK.
+
+5.Now, Decrease the Opacity as your requirement

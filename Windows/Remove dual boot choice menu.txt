@@ -1,0 +1,19 @@
+
+*First of all format that drive where the other windows installed and which you don't want to boot.
+
+1.Then Open "CMD" as adminstrator mode.
+2.Then type "BCDEDIT" in CMD. Here you can see all the boot loader which appears while startup.
+	Now, We want to remove all the boot loader and keep one. You can see on "Display order" option how many boot loader is active.
+
+
+
+3.First of all, take backup of bcdedit file. "bcdedit /export d:\bcdeditbackup.exe"
+	To import " bcdedit /import d:\bcdeditbackup.exe
+
+
+
+
+4.Type "bcdedit /displayorder --------Identifier value of boot loader-------  /remove
+
+
+5.Then shutdown the pc and start again. shutdown -r -t 00

@@ -1,0 +1,13 @@
+If .net is not being install and throwing this error 0x80070422. (for .net 3.5)
+
+1.First of all Download The Software Called "Reset Windows Update Tool" and run it.
+2.Select prefered Language and select option " Resets the Windows Update Components "
+3.Then leave it and wait till it finish. Make sure you received "Sucessfully" message at last.
+
+
+		Then,
+4.Go to Windows Services and Make these services to run automatic and also make them start.
+Windows Event Collector
+Windows Event Log Properties
+Windows Update
+

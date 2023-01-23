@@ -1,0 +1,12 @@
+Brighten Specific Area:
+1.Select the object using quick selection or any other which need to be brighten.
+2.Create an " Exposure " adjustment layer, increase " Exposure and Gamma correction " (According to your requirement)
+3.Double click on the Mask of Exposure layer.
+4.Increase the feather 30 to 40px.
+
+5.Create a " Curve " adjustment layer then hold ALT and click on " auto "
+6.Click on " End dark and light color'
+7.Click on " Highlight " option (bellow) and select white yellowish color. Click OK,YES
+
+8.Then select " Curves " and "Exposure" layer and keep them in a group. 
+

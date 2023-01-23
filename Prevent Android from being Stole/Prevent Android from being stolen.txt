@@ -1,0 +1,1 @@
+Download the app called "Track it even if it if off" Hammer security app on android and allow all the required permission. this app doesn't allow the thief to switch off the phone. and it will send selfie and current location of thief.

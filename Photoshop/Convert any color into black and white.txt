@@ -1,0 +1,7 @@
+Convert any color into black and white:
+1.Select the object or area which you want to turn into black or white.
+2.Go to Layer Panel and create hue/saturation layer.
+3.Decrease the saturation and lightness for color black
+
+
+4.Increase the light for white color
