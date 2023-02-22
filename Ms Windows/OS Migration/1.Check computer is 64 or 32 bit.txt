@@ -1,0 +1,14 @@
+**Check Computer is 32 or 64 bit:
+1.GO to "Control Panel"
+2.Click on "Performance Information and Tools"
+3.Look for option "View and print detailed performanc and system infromation"
+
+4. You can see there bellow "System", if your computer is 32 or 64 bit.
+
+
+
+
+
+
+**Check Windows is 64 or 32 bit:
+1.Press WIN key, right click on "Computer" and click on "Proporties"

@@ -1,0 +1,45 @@
+Make Bootable Pendrive:
+
+1.Open Rufus
+2.Select Pendrive
+3.Select ISO
+4.Select MBR or GPT
+
+Click Start
+
+
+
+**INSTALL WINDOWS 10:
+1.Insert pendrive and restart pc, instantly keep pressing Boot Menu key
+2.Select Pendrive 
+
+
+3.Click on Next, Install Now
+
+4.Select "Custom: Install Windows only (Advanced"
+5.Select the partition where you want to install OS
+6.Delete all partiton if there is no data
+
+7.then click on New and make new partition for OS
+8.Select partiton and click next
+
+It may takes 20 to 30 minutes and may restart computer.
+
+
+
+
+
+
+
+**INSTALL WIN 7:
+1.Insert Pendrive, Boot mode, Select Pendrive
+2.Click on Next
+
+3.Select "Custom Advanced"
+
+4.Delete partition and then Select partiton where you want to install
+
+
+
+
+

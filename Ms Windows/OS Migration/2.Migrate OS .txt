@@ -1,0 +1,48 @@
+
+Migrating os:
+
+Install "Minitool Partition Wizard"
+----------Follow the video tutorial-----------
+
+1.Then open the program "Mini tool Partition" 
+2.Click on Migrate Os to SSd/HD wizard
+3.Select " I would like to replace my system disk with another hard disk" for all files
+
+4.Now select the disk where you want to save the migration and click Next
+Note: All the files will be erased on previous HDD
+Next Next
+
+
+
+
+Click on apply and yes
+
+
+Click on "Restart Now" , Now It may take 30 to 40 mins
+
+
+
+*NOW SET BOOT PRIORITY ON THE OTHR SSD:
+1.Go to BIOS Mode
+2.Go to "Booot" Tab
+	Keep this option:
+Boot Mode		Legacy support
+Boot Priority		Legacy First
+USB Boot		Enabled
+PXE Boot to LAN		Enabled
+IPV4 PXE First		Enabled
+
+EFI
+EFI PXE Network
+
+Legacy
+Sata HHD:  Kingston SKCCjssa-----> Keep Boot SSD on top
+Sata HDD: Kingston SSK
+Network Boot: Real Tek PXE B02 D00
+
+Save the Configuration
+
+
+
+
+
