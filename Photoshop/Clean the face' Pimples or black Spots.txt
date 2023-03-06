@@ -1,0 +1,13 @@
+Clean the face' Pimples or black Spots:
+
+1. Duplicate the background layer. (CTRL+J)
+2. Select Upper layer and Press CTRL+I to invert the layer.
+3. Change blend mode normal to "Vivid light"
+4. Now go to Filter> Other >High Pass. 
+5. Increase the radius until the blemishes gets dissappear and then press OK.
+6. Go to Filter > Blur > Gaussion Blur, increase the radius little bit, hit OK.
+7. Now, Create a layer Mask and Press CTRL+I to invert the mask
+8. Now, select the Brush, make sure that foreground color is white. 
+9. Now start brushing over the Pimples or black spots.
+
+Enjoy..

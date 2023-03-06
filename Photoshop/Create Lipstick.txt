@@ -1,0 +1,9 @@
+Create Lipstick:
+
+1. Make solid color layer and select the color red. Change the 
+layer Normal to Multiply.
+2. Click on layer mask thumbnail, then Press CTRL+I, (Make the foreground color white) and paint on lips.
+
+3. Click on fx down layer and choose "Blending Option" 
+4. Set it according to Image.
+5. Double clicko to Layer Mask and increase the feather like 9 to 10.

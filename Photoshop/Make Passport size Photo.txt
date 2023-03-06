@@ -1,0 +1,35 @@
+Make Passport size Photo:
+
+		BELLOW PROCEDURE IS TO CHANGE CLOTH AND SET OTHER:
+
+1. Go to Select >Subject, then create layer Mask
+2. Choose the brush tool and select the masked on layer, right side, keep foreground color black.
+3. Then, select the cloth using quick selection tool and brush over the cloth, (make sure brush hardness 100%).
+
+4.Now, By selecting the layer, create a solid color Adjustment layer, set the color for your background. 
+5. Bring the solid color adjustment layer down
+6. Now got to File > Place Embedded, and choose the cloth which you want to use in your passport photo.
+
+7. Now resize the cloth and Hit OK.
+8. Right click on cloth layer and click "Reastorize layer" and take it up to face.
+
+		REMOVE UNWANTED PART FROM CLOTH:
+9. Select cloth layer and create layer mask, Select brush and (keep foreground color black), 
+Now select the quick selection tool and remove the unwated part from cloth using brush.
+
+10. Now fit the cloth properly using CTRL+T and wrap option if needed.
+11. Select all layer and Merge the layer.
+
+
+
+
+		PROCEDURE TO MAKE PASSPORT SIZE PHOTO HERE:
+1. Go to file and create New file.
+2. set the width 3.5 cm, height 4.5 cm, Resolution 300 Pixel/Inch, click create.
+3. Now, drag the photo over the file created and resize it. 
+4. Go to Image > Adjustments >  Exposure, set is as requirement.
+5. Select "Rectangular Marquee Tool", select image part and press CTRL+C.
+6. Go to File > New, select "Print" menu from above and choose A4 size template then create.
+7. Now paste the copied image (CTRL+V), go to Edit > Stroke and set the stroke 4, Hit Ok.
+
+8. Now Hold the ALT and drag the image to make copies.   

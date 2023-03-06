@@ -1,0 +1,12 @@
+Face Swap:
+
+1. Select the face with lasso tool. (Do not select exactly all part, just select from eyelash to down lips), then press CTRL+J to copy.
+2. Now select the selected face layer and decrease the opacity, so you can see backward face.
+3. Press CTRL+T  and adjust the face, then increase the opacity.
+4. Right click to the layer thumbnail select "Select Pixels", hide the
+copied face and right click on background then go to Select > Modify > Contrast
+and then press OK.
+
+5. Now, hit delete key, and unhide the copied face.
+6. Go to Edit > Auto Blend Layer > Stack Image. ( Tick Seamless.. Tick 
+Content Aware ....) hit OK.

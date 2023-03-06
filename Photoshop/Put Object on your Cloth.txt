@@ -1,0 +1,10 @@
+Put Object on your Cloth:
+
+1. Right click to the layer and sele Select Blending Option 
+2. Break the "Underlying Layer" slider's icon.
+(Set one Black slider on little away from black, one black little away from white, and one white exactly on white corner and one white little away from white)
+
+3. Duplicate the original background layer and move it to top, right click and create "Clipping Mask", Change Blend mode from Normal to "Linear Burn".
+
+4. Decrease the opacity.
+5. go to Filter >Blur > Gaussion Blur. set as your requirement.

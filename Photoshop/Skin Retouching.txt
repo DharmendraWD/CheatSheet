@@ -1,0 +1,8 @@
+Skin Retouching:
+
+1: Duplicate the layer, change the first's layer Blend mode to "Vivid Light".
+2. Go to Image > Adjustments > Invert.
+4. Go to Filter > Other > High Pass. (set High Pass radius as requirement)
+5. Go to Filter > Blur > Gaussion Bur (set lower then High Pass).
+6. Click Layer Mask thumbnail, CTRL+I to invert. 
+7. Select Brush tool and now paint.
