@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5        </title>
+
+</head>
+<body>
+
+
+<script>
+// Map object 
+// Map object is nothin, but similar to object whose key can be string, number, symbol, boolean etc. But in 
+// Object the key only can be string or symbol:$
+
+// To Create a Map 
+        const MapName1= new Map([['Name1', 'Aashish'],['Name2', 'Namrata']]);
+
+
+// To add keyValue
+        MapName1.set("Name3", "Shankar");
+
+// To Access Key Value 
+        console.log(MapName1.get("Name3"));
+
+// To Iterate Key Of Map 
+        for(let key of MapName1.keys()){
+             console.log(key)
+        }
+
+// To Iterate Values of Map Object 
+        for (let value of MapName1.values()){
+           console.log(value)
+        }
+
+
+// To Iterate both Key and Values 
+            for (let [key, value] of MapName1.entries()){
+              console.log(key, value)
+            }
+
+// To add Key Value to object through Map: 
+// suppose we have an object and we have to add a Key "Age" and Value "12" by Map 
+        const obj1 ={
+           Id:1,
+           Name:"Namrata",
+        }
+
+        const extraInfo =new Map();
+        extraInfo.set(obj1, {age:12, Gender: "Female"})
+// To Access Added Value 
+        console.log(extraInfo.get(obj1).Gender)
+
+
+
+ // convert object to Map
+        const Map1 = new Map(Object.entries(obj1));
+        Map1.set("Age", "12")
+
+
+// cloning Object 
+const Cobj={ ...obj1}
+
+
+// Methods 
+// Function Inside Object 
+
+const obj2 = {
+    Name:"Aarohi",
+    Age:77,
+    details:function(){
+        console.log(`My name is ${this.Name} and age is ${this.age}`);
+    }
+}
+obj2.details()
+
+const person1 ={
+    fName:"Namrata",
+    Age:17,
+    about:personInfo,
+}
+
+const person2 ={
+    fName:"Shankar",
+    Age:19,
+    about:personInfo,
+  
+}
+
+function personInfo(){
+    console.log(`My name is ${this.fName} and age is ${this.Age}`)
+}
+
+person1.about()
+person2.about()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
