@@ -1,0 +1,123 @@
+SQL is a standard language use to talk with database.
+
+SQL
+SQL database are primarily called relational databse.
+SQL database are table based database.
+Oracle, MySQL, Postgress etc are example
+
+No SQL
+Called non relational database.
+Document based, key value pairs, graph database.
+MongoDB, Redis, Casandra
+
+1. Connect to Database
+First go to folder xampp/mysql/bin then open cmd and type "mysql -u root -p -h localhost"
+
+2. Shoow Database
+show databases;
+
+3. Create Database
+create database DATABASE_NAME
+
+4. Enter in an Database
+use DATABASE_NAME
+
+5. Check current database
+select database();
+
+6. Create table
+create table TABLE_NAME
+(
+Name varchar (255),
+age int
+);
+
+7. Insert into Columns
+insert into TABLE_NAME
+values(1, " ");
+
+8. Add Column from Table
+alter table TABLE_NAME add COLUMN_NAME DATA_TYPE;
+
+9. Delete Column from Table
+alter table TABLE_NAME drop COLUMN_NAME
+
+10. Create auto increment Table
+create table TABLE_NAME(
+id int not null Auto_increment,
+name varchar(25),
+age int
+);
+
+11. Create Primary Key
+create table TABLE_NAME (
+id int, 
+name varchar (44), 
+age int,
+primary key (id) );
+
+12. Where clause -- use to filter records
+select * from TABLE_NAME where age >=19;
+---It means in the mentioned table the people whose age is greater or equall to 19
+   will only shown in.
+
+13. Update statement -- modify existing records
+update TABLE_NAME set age =23 where fName ="Ramesh";
+---It means set age 23 in age column where fName is Ramesh.
+
+14. Delete statement -- delete existing records
+delete from TABLE_NAME where id=7;
+---Delete the 7th number column from table.
+
+15. Distinct -- Shows only unique
+select distinct fName from TABLE_NAME;
+---It means if fName has more than one same name it will only show one.
+
+16. order by -- use to sort 
+select * from TABLE_NAME order by age desc;
+
+17. Limit -- shows only as you need
+select * from TABLE_NAME limit 3;
+---It will only show first 3 result
+
+18. Like -- Use to search by using letters
+select fName from TABLE_NAME where fName like 'v%';
+---It will show name starting with V
+
+select fName from TABLE_NAME where fName '%vi%'
+---It will show name having 'vi' in the middle
+
+
+	AGGREGATE FUNCTION
+19. Max -- To find Maximum
+select max (age) from TABLE_NAME;
+---Show maximum age from table 
+
+20. Sum -- to add
+select sum(age) from TABLE_NAME;
+---Sum of all age
+
+21. Count
+select count (id) from TABLE_NAME;
+---Count rows in student table
+
+22. Avrage
+select avg(age) from TABLE_NAME;
+---Show average age from table
+
+23. Between 
+select * from TABLE_NAME where age between 22 and 25;
+---Shows only whose age is between 22 to 25.
+
+24. Creating not Null table
+create table TABLE_NAME(
+id int not null, 
+name varchar(24) not null
+);
+---It means the value of id and name can't be empty.
+
+Null -- Null does not mean zero. It means the value is not known.
+Not Null -- When not null is applied it means you can't leave any columns name empty.
+Default -- When we set default we can set any string if we don't know any columns name then 
+default value willl appears. 
+
