@@ -1,0 +1,24 @@
+Change MAC in Windows:
+1.first of all open CMD and see your MAC address.
+Note: It should be like C0-B6-F9-43-8A-B9   \Device\Tcpip_{2B5A2D00-ED86-42C6-8947-D4B33C661E86} on the first list. and this is your MAC address.
+
+2.Press WIN+R and type "regedit".
+3.Expand HKEY_LOCAL_MACHINE--SYSTEM--ControlSet001--Control--Class.
+4.Here Expand one Particular folder that goes like {4d36e972-
+5.Now click on any folder and check chect the value "NetCfgInstanceId".
+
+6.And now check the data value of "NetCfgInstanceId" matches from the \Device\Tcip_\Device\Tcpip_      check this "{2B5A2D00-ED86-42C6-8947-D4B33C661E86}".
+7.If doesn't matche the value then check the other subfolder until that matches. 
+8.If matches the value then right click anywhere on the blank space and select New--String Value and rename it "NetworkAddress".
+
+9.Now Double click on newly created string value and enter the MAC Address in Value Data.
+Note: just enter MAC address don't include any colon or hyphen. example: enter like this--> C0B6F9438AB9
+
+Note: While entering new MAC make sure the character of Second MAC address always starts with 0,2,A,E. If you enter the second character beside 0,2,A,E it doesn't work
+
+10.Now close Registry Editor and go to Control Panel--Network and Internet--Network and Sharing Center--change adapter Settings and disable wifi and enable again. 
+
+	done✔✔
+
+
+Note: In order to delete that MAC delete that "NetworkAddress" value from Registry Editor.

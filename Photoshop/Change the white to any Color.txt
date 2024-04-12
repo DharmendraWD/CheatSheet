@@ -1,0 +1,19 @@
+Change White into Any color:
+1. Make the selection of whhite part. (Use quick selection tool)
+2. Make a solid color adjustment layer, Now select any bright color 
+3. Now Change the blend mode from "Normal" to "Multiply".
+
+Now for far better result:
+4. Create a "Curves" adjustment layer, select both Curves and solid color layer, then press CTRL+G.
+5. Now drag an drop the mask of solid color layer over group.
+6. Now doulbe click on the curves icon of curves layer. 
+7. Now select the hand icon from "Properties Box" and drag the line up or down for best result. 
+
+
+Now for Darker Color:
+8. Click on the adjustment layer icon and then choose curves, which should be above than first curve layer
+9. Open the second curve and drag the line to up (Color may be white, dont worry)
+10. Now double click on the right side of newly created curves
+11. And take the slider "Underlying layer" from left to right. If it is being so bright/harsh then "Press ALT and drag the little icon of "Underlying Layer" bar. 
+
+12. Now if you want more shine then follow from 8 to 11:

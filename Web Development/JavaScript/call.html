@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call</title>
+</head>
+<body>
+    <script>   
+    // Call 
+    // It is used to use the method of other function in any other function 
+    
+        const stuName1 ={
+            name:"arya",
+            age: 9,
+        
+            details:function(coins){
+                console.log(`My name is ${this.name} and I am ${this.age} and I have ${coins} coins.`);
+            }
+        }
+        
+
+        
+        const stuName2={
+            name:"Sansa",
+            age:21,
+        }
+        
+
+                // stuName1.details();
+                stuName1.details.call(stuName2, 4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        </script>
+</body>
+</html>

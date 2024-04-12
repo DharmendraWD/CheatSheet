@@ -1,0 +1,3 @@
+Remove Object:
+
+1. Select the Patch tool and select the object roundly then drag it to remove. 

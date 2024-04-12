@@ -1,0 +1,12 @@
+Create Reflection in Photoshop.
+1.Open Photo in Photoshop.
+2.Select the part of image which you want to reflect by selection tool.
+3.Press CTRL+J and CTRL+T and then right click on selected part of photo and click on "Flip Verticle".
+4.Now place the selected part photo as your choice and then hit enter.
+5.Hold CTRL then click on layer's thumbnail and then click on "Mask" button.
+6.Now click on thumbnail and go to "Filter" on the top then Select "Blur" and then "Motion Blur" and Keep motion blur 90 degree or you can change it if you want and then hit OK.
+7.Now go to "Filter">"Blur">"Gaussian Blur" and keep the value as your requirement and hit OK.
+
+		Now make reflection part little darker
+8.Click on thumbnail of reflection part image and click on "Adjustment Layer" icon then Select "Levels".
+9.Now drag the slidder little left to make object darker and then click on small button on the left side of properties.

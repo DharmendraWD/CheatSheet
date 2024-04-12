@@ -1,0 +1,43 @@
+const person = {
+  name: "John",
+  age: 30,
+};
+
+
+Accessing Object Properties
+const name = person.name;
+const age = person['age'];
+
+Modifying Object Properties
+person.name = "Alice";
+person['age'] = 25;
+
+Adding New Properties
+person.city = "New York";
+
+Checking if Properties really exist
+if ('city' in person) {
+  // Property exists
+}
+
+Deleting Properties
+delete person.age;
+
+Looping through Object properties
+for (const key in person) {
+  console.log(key, person[key]);
+}
+
+
+Object Distructing
+const { name, age } = person;
+
+Object Spread Operator (ES6) / Copy Object
+const newObj = { ...person, city: "London" };
+
+
+
+
+
+
+

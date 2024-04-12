@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+</head>
+<body>
+    <script>
+// Object Constructor Function 
+/*Object Construction function is nothing, It is used to create same object with Same properties.*/
+
+// Creating Constructor Function    
+function Student(Id, fName, lName, age, cls){
+    this.Id=Id;
+this.firstName = fName;
+this.lastName = lName;
+this.age= age;
+this. class= cls;
+}
+
+const student1 = new Student("1", "Vishal", "Sharma", 22, 12);
+        // Adding Value to Only student1 object 
+student1.Hobbies= "Sleeping, Watching Movies";
+
+        // Adding Method in student2 
+student1.nameAndgender = function(){
+    console.log(`Name is ${this.firstName} `)
+}
+
+        // Adding Properties to direct in Constructor function 
+Student.prototype.Nationality= "Nepalese";
+console.log(student1)
+
+// Prototype 
+/*Protoype is nothing but it means to add method or properties in the constructor function from outside*/
+
+
+console.log(student1.nameAndgender)
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

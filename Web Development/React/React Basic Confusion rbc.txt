@@ -1,0 +1,71 @@
+TO WRITE CUSTOM CSS INLINE:
+style={{background:'red', textAlign:'center'}}
+
+IMPORTING IMAGE 
+import image4 from './image4.jpg';
+
+TO GO STEP BACK 
+ '../../assets'
+
+TO GET HTML SUGGETIONS
+ "emmet.includeLanguages": {"javascript": "javascriptreact"}
+
+
+CREATING VITE
+npm create vite@latest _NAME
+
+CREATING REACT APP
+npm install
+
+TERNARY OPERATOR
+  {data.close ?  <IoCloseSharp className="buttomPart_close"/> : <IoCloudDownloadOutline  className="buttomPart_close"/>}
+
+
+
+// IF OBJECT HAS THE PROPERTY DISCOUNT THEN ONLY ADD "padding" CLASS IN DIV
+<div className={`mainDiv ${items.discPercentage ? '' : 'padding'}`} >
+
+
+
+///GET ALL CHILDREN VALUE WHICH IS INSIDE DIV ON CCLICK
+const itemPage = (event) => {
+  const childrenValues = Array.from(event.currentTarget.children).map((child) => {
+    return child.innerText || child.value || '';
+  });
+
+  console.log('MainDiv clicked. Children Values:', childrenValues);
+};
+
+
+
+///CONDITIONAL STYLES
+if "theme" value is "dark-theme" then only apply opacity 8% on this div
+<div className={`itemName border border-2 rounded mb-2 bg-white p-1`} style={{opacity:theme ==='dark-theme' && '8%'}}>
+
+
+////SUPPOSE THERE IS AN OBJECT  STATE. HOW CAN WE CHANGE THE VALUE OF OBJECT PROPERTY?
+	const [form, setForm] = useState({name:"Jain", phone:"98"})   --> form is an object and name and phone are property. 
+	  setForm({ ...form, name: "Dharmendra" })	--> to change name 
+	   
+
+MAKING STYLE VARIABLE
+const AddToCartStyle = {
+  position: 'absolute',
+  bottom: 0,
+  left: '50%',
+  transform: 'translate(-50%, 0)'
+}; 
+
+////MERGIN VARIABLE STYLE WITH RAW STYLE 
+      <Link style={{
+          width: "100%",
+          backgroundColor: "#1a2024",
+          color: "white",
+          fontSize: "1.1rem",
+        ...AddToCartStyle}}>
+
+
+
+
+//PASS STYLE AS VARIABLE
+//I WANT TO PASS A 

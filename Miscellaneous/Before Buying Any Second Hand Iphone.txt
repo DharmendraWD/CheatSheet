@@ -1,0 +1,23 @@
+Before Buying any Iphone Check these following terms:
+
+
+Check if iphone is New or Refurbished
+Check the Iphone Model number if the model numbe of first letter start with:
+"M" means Iphone is New
+"N" means iphone's Part is replaced
+"F" means Refurbished
+"P" means customized
+---Buy only if it starts with "M".---
+
+
+Got to https://checkcoverage.apple.com/.
+Copy Iphone's S.No and paste it there. If apple's site recognized that phone it means the phone is Original.
+
+Decrease all the brightness and see if screen is properly displaying or not.
+Increase full brightness and go to sunlight then see if screen is properly visible or not.
+See the option "Night Mode" under brigtness panel by holding it from control center.
+Turn on "Assistive Touch" and move the Assistive touch's round button all over the screen if it is rolling properly then screen is good.
+Check Every Buttons, Speaker, Wifi, Bluetooth, Face ID, Touch ID.
+
+
+

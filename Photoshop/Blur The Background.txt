@@ -1,0 +1,7 @@
+Blur The Background:
+
+1. Go to Select > Subject then duplicate the layer, right click on duplicate layer and select "select pixel".
+2. Now, hide the upper layer and click on down layer (Original layer) and then go to Select > Modify > Expand, set the value 20 and hit OK.
+3. Now go to Edit > FIll > Content Aware, tick "Color Adaption" option and Blending mode "Normal" hit OK.
+
+4. Now unhide the upper layer then select down layer and go to Filter >Blur > gaussion Blur and set the blur then Hit OK.

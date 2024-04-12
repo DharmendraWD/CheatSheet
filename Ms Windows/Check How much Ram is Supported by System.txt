@@ -1,0 +1,4 @@
+How to Know How much Ram is supported by PC? 
+Go to CMD.
+type "wmic memphysical get maxcapacity, memorydevices".
+now divide the number with 1048576

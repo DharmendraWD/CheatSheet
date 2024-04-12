@@ -1,0 +1,31 @@
+ctrl+k v
+# h1
+## h2
+### h3
+
+paragraph is writen without any tag
+
+--- hr
+
+**bold**
+*italic*
+> blockquote/coloured
+1. ordered list
+- unordered list
+
+
+```programing language Name
+code writen inside back tick
+```
+
+IMAGE
+![alt text](link)
+
+
+LINK
+[google(https://www.google.com)
+
+TABLE
+|tableHeading | tableDesc|
+|---| ---|
+|name| |name|

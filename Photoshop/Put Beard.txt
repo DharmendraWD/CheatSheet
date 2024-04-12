@@ -1,0 +1,8 @@
+Put Beard and Moustache:
+
+1. Select the beard and Moustache from other image using Laso Too.
+2. Copy the selected part and paste on the image where you want.
+3. Change the blend mode to "Multiply" of Beard layer.
+4. Go to Image > Adjustments > Desaturate 
+5. Go to Image > Adjustment > Levels and slide the ruler. 
+6. Create layer Mask and choose the brush and remove the unwanted parts. (Make sure Foreground color black, background White).

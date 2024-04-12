@@ -1,0 +1,7 @@
+How to check motherboard Model in Pc?
+		Way 1:
+1. Open Cmd and type "wmic baseboard get product, manufacture" enter.
+
+
+		Way 2:
+1. Open "RUN" and type "msinfo32"

@@ -1,0 +1,13 @@
+Glow Object:
+
+1. Select the object (Use quick selection).
+2. Make the twice copy of selected object and convert the upper layer into smart object, and change the blend mode normal to "Screen".
+3. then go to Filter > Blur > Gaussion Blur (Keep between 5 to 8)
+4. Now duplicate the upper layer, and click on "Gaussion Blur" option in the Layers bellow first layer. then set the blur 15.
+
+5. Again duplicate the layer,  and click on "Gaussion Blur" option in the Layers bellow first layer. then set the blur 150.
+6. Again duplicate the layer,  and click on "Gaussion Blur" option in the Layers bellow first layer. then set the blur 300.
+
+7. Group all the layer except 0 layer(first image). 
+8. Select First layer image and duplicate it, then create "Exposure Adjustment Layer".
+9. Decrease the exposure for better result.

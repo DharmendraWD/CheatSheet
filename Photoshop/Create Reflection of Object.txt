@@ -1,0 +1,7 @@
+Create Reflection of Object:
+
+1. Duplicate the object, Right click on of them and select Flip Horizontal, then drag where you want the reflection. 
+2. Now, right click on it and click on "Wrap", Make a little bit wrap. 
+3. Now click on Layer Mask then "Gradient tool" then drag over the object. 
+4. Then go to Filter > Blur > Gaussion Blur, set Blur hit OK.
+5. Create new layer, then little brush on duplicated layer.

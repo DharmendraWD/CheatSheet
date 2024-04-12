@@ -1,0 +1,9 @@
+To enable root user
+Open Terminal and type " sudo passwd"
+type the new password of your root user
+
+
+To disable root user
+First login as root user
+Open Terminal and type " passwd -l root"
+

@@ -1,0 +1,6 @@
+Remove unnecessary app from Windows:
+Xbox game bar:
+---> Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
+
+Cortana:
+----> Get-AppxPackage -allusers Microsoft.549981C3F5F10 | Remove-AppxPackage

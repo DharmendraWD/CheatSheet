@@ -1,0 +1,16 @@
+1. First, you need to identify the specific version or commit that you want to bring back. You can do this by running git log to view the commit history and find the commit hash or tag associated with the previous version you want to restore.
+
+2. Once you have the commit hash or tag, you can use the git checkout command to switch to that specific commit. The syntax is as follows:
+	git checkout HASH
+
+This will switch your working directory to the state of the code at the specified commit. Note that you will be in a "detached HEAD" state, and your changes in the working directory will not be associated with any branch.
+
+3. If you want to create a new branch based on this specific commit to work on it further, you can create a branch using the following command:
+	git checkout -b new-branch-name
+
+
+
+
+
+
+1. Every time you commit, you must add the file in git by: git add .

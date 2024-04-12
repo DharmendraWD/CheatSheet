@@ -1,0 +1,4 @@
+1.import the image in PS
+2.unlock the image by clicking on lock icon from selected image layer.
+3.Click on " Windows " tab then " Proporties " then under "quick action"  
+  click on " Remove Background "

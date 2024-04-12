@@ -1,0 +1,44 @@
+/* To make background Dark with Image Behind */
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('images/2.jpg');
+}
+
+
+SET ANIMATION
+@keyframes slideIn {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.element-to-animate{
+    animation-name: slideIn;
+    animation-duration: 1s;
+}
+-------------------------------------------------------------------------------------------
+
+MAKING FIT BACKGROUND OF DIV
+idv{
+    background-size: cover;
+    background-position: center;
+widt:as needed;
+}
+------------------------------------------------------------------------------------
+
+CHANGE PLACEHOLDER COLOR
+  input.input::placeholder {
+    color: rgb(243, 0, 0);
+  }
+  input[type="search"]::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+
+//CSS STROKE
+-webkit-text-stroke: 2px navy;
+  
+
+//TO MAKE A GRID ITEM TO TAKE FULL WIDTH
+    grid-column: 1 / -1; /* Span from the first to the last column */

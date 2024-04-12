@@ -1,0 +1,6 @@
+Remove text from image:
+
+1. Select "Rectangular Marquee Tool" then select the text.
+2. Go to Select > Color Range, select "stamped color" above, then take a sample of text color, hit OK.
+3. Go to Select > Modify > Expand (Value 10) OK.
+4. Go to Edit > Content Aware Fill.

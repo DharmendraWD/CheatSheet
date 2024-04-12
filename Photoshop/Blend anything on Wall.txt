@@ -1,0 +1,7 @@
+Blend anything on Wall:
+
+1. Select the object which you want to blend on wall, then Select "Rectangular Marquee Tool" and Draw a rectanle around the object, Press CTRL+X.
+2. Go to Filter > Vanishing Point, then drwa the line(Box) as you want to blend the object on wall, then CTRL+V and then drag the object under the Box. then Hit OK
+
+3. Select Object Layer and click on "fx" option under layer then choose "Blending option"
+4. Now separate the little icon of "Underlying Layer" both black and white, then drag both for better result.

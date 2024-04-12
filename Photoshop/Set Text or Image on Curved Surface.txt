@@ -1,0 +1,7 @@
+Set Text or Image on Curved Surface:
+
+1. Select the curved surface using Quick selection tool and Create a new Layer using CTRL+J.
+2. Select "Rectangle Tool" and draw a rectangle on curved surface.
+3. Right click on Rectangle layer and click on "Convert to smart Object".
+4. Decrease the opacity of Rectangle Layer, and press CTRL+T and choose "Distort".
+5. Then fit the layer from up down side and If you are facing problem to adjust then right click on rectangle and click on "Wrap" then try. 

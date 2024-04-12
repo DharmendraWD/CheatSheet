@@ -1,0 +1,7 @@
+Remove Fences:
+
+1. Select Brush Tool and Make 100% hardness of Brush. 
+2. Create a new Layer and set the opacity 50%.
+3. Select the new created layer and brush over the all fences.
+4. Right click to layer thumbnail select "Select Pixel", and hide this layer.
+5. Now go to background layer go to edit > fill, select the Contents "Content-Aware" and hit OK.

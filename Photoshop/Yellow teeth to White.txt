@@ -1,0 +1,4 @@
+Yello teeth to white teeth
+1.Select teeth by lasso tool.
+2.Go to "Layer" Pannel and click on "Hue Saturation" 
+3.Change "Master" to "Yellows" and Increase lightness
