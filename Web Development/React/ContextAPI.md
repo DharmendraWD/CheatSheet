@@ -1,73 +1,72 @@
-## Context, UseContext
----
-***Step1: Create the context:***
-***Step2: Create the Provider:***
-1. Create a Provider component: This will wrap the components that need access to the context.
-2. ***Define state*** (if needed): Use useState to manage the state that you want to share across components.
-3. ***Provide the context value:*** Use the Provider component created by the context and pass the value that will be accessible to consuming components.
-***Step3: Wrap the App with the Provider***
+### ContextAPI
 
-
-> ### context.js
+1. wrap the "App" component with created context in main.jsx
+2. Create a **context file** and create a **context** using create Context and **export it** above function in context.jsx
+3. **Receive props in Context** Function in context file
+4. **Make sates** in Context function.
+5. in context function return: 
 ```jsx
-import React, { createContext, useState } from 'react';
-// Create the context
-const userContext = createContext();
-export default userContext
+  return <userData.Provider value={name}>
+  {props.children}
+  </userData.Provider>
 ```
 
-> ### Provider.js
+1. Now, suppose I want use created state in **User** file. 
+2. **Import created Context** from Context File. 
+3. Inside "User" function:
 ```jsx
-import React, {useState } from "react";
-import context from "./context";
+ const user = useContext(userData)
+ ```
 
-const UserContextProvider = ({children}) =>{
-        
-    const [uName, setuName] = useState("Dharmendra")  
-  
-    let changeName =()=>{   //Function called on button click to change name  
-    setuName("NameChanged")
-    }
-        return (
-            <context.Provider value={{uName, setuName, changeName}}>
-                {children}
-            </context.Provider>
-        )
+**Step 1:**
+ Main.js
+ ```jsx
+//  import React from 'react'
+// import ReactDOM from 'react-dom/client'
+// import App from './App.jsx'
+import Context from './components/context/Context.jsx'
+
+// ReactDOM.createRoot(document.getElementById('root')).render(  
+<Context>
+    <App />
+</Context>
+// )
+ ```
+
+ **Step 2:**
+ Context.jsx
+ ```jsx
+ import React, { createContext, useState } from 'react'
+
+export const userData = createContext()
+
+function Context(props) {
+const [name, setName] = useState("John Doe")
+
+  return <userData.Provider value={name}>
+  {props.children}
+  </userData.Provider>
 }
-export default UserContextProvider
+
+export default Context
 ```
 
-> ### App.js
+**Step 3:**
+Using state in file:
 ```jsx
 import React from 'react'
-import UserContextProvider from "./components/context/Provider";
-import Nav from './components/Nav'
+import { useContext } from 'react'
+import { userData } from './context/Context'
 
-function App() {
-  return (
-    
-    <UserContextProvider>
-<Nav></Nav>
-    </UserContextProvider>
-  )
-}
-export default App
-```
+function User() {
+  const user = useContext(userData)
 
-```jsx
-import React, {useContext} from 'react'
-import userContext from "./context/context";
-
-function Nav() {
-    const value = useContext(userContext);
-        console.log(value.uName);
+console.log(user);
 
   return (
-    <div>
-    <p>{value.uName}</p>
-    <button onClick={value.changeName}></button>
-    </div>
+    <div>{user}</div>
   )
 }
-export default Nav
+export default User
 ```
+

@@ -67,5 +67,27 @@ const AddToCartStyle = {
 
 
 
-//PASS STYLE AS VARIABLE
-//I WANT TO PASS A 
+//CHANGE OBJECT VARIABLE OF ID 2
+const handleincrement = () => {
+            setNewValue(newValue+20)
+            // Create a copy of the exploreItems array
+            const updatedItems = [...value.exploreItems];
+          
+            // Update the discPercentage of the first item
+            updatedItems[2].priceBeforeDisc = newValue;
+          
+            // Set the state with the updated array
+            value.setExploreItems(updatedItems);
+        }
+
+
+
+//DEEP COPY WITHOUT ORIGINAL CHANGING
+// Deep copy the exploreItems array
+const updatedItems = JSON.parse(JSON.stringify(value.exploreItems));
+
+// Update the priceBeforeDisc of the item at the specified id
+updatedItems[id].priceBeforeDisc = newValue;
+
+// Set the state with the updated array
+setexploreItem2(updatedItems);
