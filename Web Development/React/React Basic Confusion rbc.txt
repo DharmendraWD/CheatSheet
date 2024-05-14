@@ -91,3 +91,7 @@ updatedItems[id].priceBeforeDisc = newValue;
 
 // Set the state with the updated array
 setexploreItem2(updatedItems);
+
+
+//TO COPY PREVIOUS AND RECENT VALUE
+    setitem(prev=> [...prev, exploreItems[clickedELemID]])
